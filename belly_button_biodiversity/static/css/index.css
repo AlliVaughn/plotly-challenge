@@ -1,0 +1,47 @@
+ /* adjusting the css here for better UI/UX */
+ .jumbotron{
+    background-color: black;  
+    background-position: center;
+    width: 100%; 
+}
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+body > div.container-fluid > div.jumbotron > div > h1{
+ color: white; 
+}   
+#selDataset{ 
+ background-color:black; 
+ color:white; 
+ font-size: larger;
+ margin-bottom:10px; 
+}
+body > div.container-fluid > div.jumbotron > div > h2{
+ color: whitesmoke; 
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    font-size: larger; 
+}
+.panel-primary {
+    border-color: white;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: white; 
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+.well{ 
+    background-color: #cfe2f2;
+}
+#bubble{ 
+    margin-bottom: 100px; 
+}
